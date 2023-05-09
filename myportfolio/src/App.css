@@ -2,7 +2,7 @@
 
 :root {
     --primary-color:rgb(118, 118, 241); 
-    --secondary-color: rgba(53, 52, 52, 0.037);
+    --secondary-color: rgba(71, 71, 70, 0.965);
     --tertiary-color: rgba(202, 202, 202, 0.852);
     --white-color: #fff;
     --black-color: black;
@@ -183,3 +183,20 @@ a{
 .op-07{opacity: 0.7;}
 .op-06{opacity: 0.6;}
 .op-05{opacity: 0.5;}
+
+/* Button styling */
+.btn-item{
+    color: var(--white-color);
+    border-radius: 28px;
+    border: 1px solid var(--white-color);
+    transition: var(--transition);
+}
+
+.btn-groups .btn-item:first-child{
+    margin-right: 2.5rem;
+}
+
+.btn-groups .btn-item:hover{
+    background-color: transparent;
+    border-color: var(--white-color)!important;
+}
