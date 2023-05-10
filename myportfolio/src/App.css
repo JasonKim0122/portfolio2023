@@ -207,3 +207,21 @@ a{
     animation: none!important;
     transition: none!important;
 }
+
+/* section title styling */
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    letter-spacing: 2.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-title h3 {
+        font-size: 3.5rem;
+    }
+}
