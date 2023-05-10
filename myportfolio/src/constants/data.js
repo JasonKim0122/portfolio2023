@@ -30,4 +30,10 @@ const works = [
     }
 ];
 
+const aboutMe = [
+    {
+        image: `${images.aboutMe_img_1}`
+    }
+]
+
 export {services, works};
