@@ -18,4 +18,16 @@ const services = [
     }
 ];
 
-export {services};
+const works = [
+    {
+        image: `${images.works_img_1}`
+    },
+    {
+        image: `${images.works_img_2}`
+    },
+    {
+        image: `${images.works_img_3}`
+    }
+];
+
+export {services, works};
