@@ -200,3 +200,10 @@ a{
     background-color: transparent;
     border-color: var(--white-color)!important;
 }
+
+/* resize transition stopper */
+
+.resize-animation-stopper *{
+    animation: none!important;
+    transition: none!important;
+}
